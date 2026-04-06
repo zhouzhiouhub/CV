@@ -11,7 +11,17 @@
         "180****3146",
         "2922****@qq.com",
         "2 年工作经验",
-        "期望城市：深圳"
+        "期望城市：深圳",
+        {
+          label: "GitHub",
+          value: "github.com/zhouzhiouhub",
+          href: "https://github.com/zhouzhiouhub"
+        },
+        {
+          label: "在线简历",
+          value: "zhouzhiouhub.github.io/CV",
+          href: "https://zhouzhiouhub.github.io/CV/"
+        }
       ],
       stats: [
         {

@@ -191,6 +191,23 @@ h1 {
   color: var(--ink);
 }
 
+.chip-link {
+  text-decoration: none;
+  transition: transform 180ms ease, border-color 180ms ease, background-color 180ms ease, color 180ms ease;
+}
+
+.chip-link:hover {
+  transform: translateY(-1px);
+  border-color: rgba(15, 118, 110, 0.28);
+  background: var(--accent-soft);
+  color: var(--accent-strong);
+}
+
+.chip-link:focus-visible {
+  outline: 2px solid rgba(15, 118, 110, 0.35);
+  outline-offset: 2px;
+}
+
 .layout {
   display: grid;
   grid-template-columns: minmax(260px, 320px) minmax(0, 1fr);

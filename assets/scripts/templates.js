@@ -12,6 +12,42 @@
     return '<h2 class="section-title">' + escapeHtml(title) + '</h2>';
   }
 
+  function normalizeLink(value) {
+    if (typeof value !== "string") {
+      return "";
+    }
+
+    var href = value.trim();
+
+    if (!href) {
+      return "";
+    }
+
+    if (/^(https?:|mailto:|tel:)/i.test(href)) {
+      return href;
+    }
+
+    return "";
+  }
+
+  function renderContactChip(contact) {
+    var isObject = contact && typeof contact === "object";
+    var text = isObject
+      ? [contact.label, contact.value].filter(Boolean).join(" · ")
+      : String(contact || "");
+    var href = isObject ? normalizeLink(contact.href) : "";
+
+    if (!href) {
+      return '<span class="chip">' + escapeHtml(text) + '</span>';
+    }
+
+    return [
+      '<a class="chip chip-link" href="' + escapeHtml(href) + '"' + (/^https?:/i.test(href) ? ' target="_blank" rel="noreferrer"' : '') + '>',
+      escapeHtml(text),
+      '</a>'
+    ].join("");
+  }
+
   function renderBulletList(items, className) {
     return [
       '<ul class="' + className + '">',
@@ -32,7 +68,7 @@
       '    <p class="summary">' + escapeHtml(basics.summary) + '</p>',
       '    <div class="contact-grid">',
       basics.contacts.map(function (contact) {
-        return '      <span class="chip">' + escapeHtml(contact) + '</span>';
+        return '      ' + renderContactChip(contact);
       }).join(""),
       '    </div>',
       '  </div>',
