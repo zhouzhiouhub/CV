@@ -27,10 +27,7 @@ body {
   margin: 0;
   color: var(--ink);
   font-family: "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-  background:
-    radial-gradient(circle at top left, rgba(180, 83, 9, 0.18), transparent 32%),
-    radial-gradient(circle at 85% 12%, rgba(15, 118, 110, 0.22), transparent 28%),
-    linear-gradient(135deg, #f7f3eb 0%, #efe6d6 45%, #eef4f2 100%);
+  background: linear-gradient(135deg, #f7f3eb 0%, #efe6d6 45%, #eef4f2 100%);
   min-height: 100vh;
 }
 
@@ -86,13 +83,7 @@ body::before {
 }
 
 .hero::after {
-  content: "";
-  position: absolute;
-  inset: auto -80px -80px auto;
-  width: 240px;
-  height: 240px;
-  background: radial-gradient(circle, rgba(15, 118, 110, 0.2), transparent 70%);
-  border-radius: 50%;
+  display: none;
 }
 
 .hero-copy {
@@ -109,7 +100,7 @@ body::before {
   background: var(--accent-soft);
   color: var(--accent-strong);
   font-size: 13px;
-  letter-spacing: 0.12em;
+  letter-spacing: 0;
   text-transform: uppercase;
 }
 
@@ -123,9 +114,9 @@ body::before {
 
 h1 {
   margin: 18px 0 10px;
-  font-size: clamp(36px, 6vw, 56px);
+  font-size: 50px;
   line-height: 1;
-  letter-spacing: -0.04em;
+  letter-spacing: 0;
 }
 
 .title {
@@ -162,7 +153,7 @@ h1 {
 
 .stat-label {
   font-size: 12px;
-  letter-spacing: 0.1em;
+  letter-spacing: 0;
   text-transform: uppercase;
   color: var(--muted);
 }
@@ -237,7 +228,7 @@ h1 {
   gap: 12px;
   margin: 0;
   font-size: 17px;
-  letter-spacing: 0.04em;
+  letter-spacing: 0;
 }
 
 .section-title::before {
@@ -291,7 +282,7 @@ h1 {
   display: block;
   margin-bottom: 4px;
   font-size: 12px;
-  letter-spacing: 0.08em;
+  letter-spacing: 0;
   text-transform: uppercase;
   color: var(--muted);
 }
@@ -386,6 +377,10 @@ h1 {
   color: var(--accent-strong);
   font-size: 12px;
   font-weight: 700;
+  line-height: 1.4;
+  max-width: 180px;
+  text-align: right;
+  white-space: normal;
 }
 
 .role-line {
@@ -473,6 +468,15 @@ h1 {
   .sidebar,
   .content {
     padding: 20px;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  .time-badge {
+    max-width: none;
+    text-align: left;
   }
 }
 
