@@ -20,7 +20,7 @@ Android 开发工程师 / Flutter 开发工程师 / 小程序开发工程师 / �
 - Android：熟悉 Kotlin、Android WebView、Activity、Intent、SharedPreferences、DownloadManager、Storage Access Framework、权限与安全配置、Gradle Kotlin DSL、JUnit、AndroidX Test、Espresso；了解 Media3 ExoPlayer、WebView 请求拦截、JS 注入、Cookie、UA、文件下载与本地文件授权目录管理。
 - Flutter / Dart：熟悉 Flutter 页面布局、状态管理、键盘/按钮交互、响应式棋盘渲染、本地持久化、JSON 导入校验、单元测试和 Widget 测试；具备游戏规则、搜索算法、死局检测和提示系统实现经验。
 - 小程序与移动 Web：熟悉微信小程序页面注册、组件拆分、表单编辑、本地缓存、素材选择、分享海报、打印页、反馈页、数据看板和云开发预留；熟悉 JavaScript、HTML、CSS、localStorage、Three.js、WebGL 和 Web Audio。
-- 工程与交付：熟悉 Git、构建发布、版本管理、应用商店发布流程、下载链路校验、Cloudflare Pages / R2 / CDN、Linux systemd、Nginx、日志排障、Python 自动化、Excel 数据处理和 SOP 沉淀。
+- 工程与交付：熟悉 Git、构建发布、版本管理、下载链路校验、Cloudflare Pages / R2 / CDN、Linux systemd、Nginx、日志排障、Python 自动化、Excel 数据处理和 SOP 沉淀，具备公司主要软件 Microsoft Store（微软商店）/ Steam 上架流程经验。
 - 后端与业务系统基础：了解 Next.js、React、TypeScript、FastAPI、PostgreSQL、Redis、Webhook、订阅支付、用户管理、技术支持 AI 与知识库检索链路。
 
 ## 工作经历
@@ -29,7 +29,8 @@ Android 开发工程师 / Flutter 开发工程师 / 小程序开发工程师 / �
 
 2024.06 - 2026.07
 
-- 负责多款客户端/桌面端软件的构建、打包、发布、检测、分发与下载链路维护，覆盖官网、CDN、对象存储、应用商店等渠道，熟悉版本号管理、安装包生成、发布说明配置和上线前验证。
+- 负责多款客户端/桌面端软件的构建、打包、发布、检测、分发与下载链路维护，覆盖官网、CDN、对象存储等渠道，熟悉版本号管理、安装包生成、发布说明配置和上线前验证。
+- 参与公司主要桌面端软件在 Microsoft Store（微软商店）和 Steam 的上架发布流程，配合完成包体准备、商店预检、上传、版本递增、发布说明配置和状态跟进。
 - 维护 Rust / Tauri、npm 脚本、Python 自动化等构建流程，参与插件目录清理、包体裁剪、会员授权配置、生产构建和 Staging 验证，保障软件交付节奏和发布稳定性。
 - 维护官网、下载页、更新日志、博客、多语言页面和静态资源发布流程，负责下载入口校验、缓存刷新、页面内容核对和发布回归。
 - 参与用户管理、会员订阅、支付订单、Webhook 回调和权益同步相关系统维护，能够围绕登录、验证码、Session、环境变量、生产安全配置等风险点进行排查。

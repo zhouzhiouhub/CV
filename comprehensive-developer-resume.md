@@ -22,7 +22,7 @@ GitHub：https://github.com/zhouzhiouhub
 - 移动端与客户端：熟悉 Kotlin、Android WebView、Activity、Intent、SharedPreferences、DownloadManager、Storage Access Framework、Gradle Kotlin DSL；了解 Media3 ExoPlayer、Android 权限、文件下载、播放队列和本地数据管理；熟悉 Flutter / Dart 页面布局、状态管理、交互控制和测试。
 - 小程序与前端：熟悉微信小程序页面、组件、表单、本地缓存、素材选择和基础云开发预留；熟悉 JavaScript、TypeScript、React、Next.js、Astro、Ant Design、Tailwind CSS、响应式页面和多语言站点维护。
 - 后端与业务系统：了解 FastAPI、PostgreSQL、Redis、Webhook、用户管理、会员授权、订阅支付、订单识别、技术支持 AI 和知识库检索等业务链路。
-- 工具链与自动化：熟悉 Rust / Tauri 构建流程、npm 脚本、MSIX、应用商店发布、版本管理；熟悉 Python、Tkinter、openpyxl、pywin32、PyInstaller、Windows 任务计划和批处理脚本。
+- 工具链与自动化：熟悉 Rust / Tauri 构建流程、npm 脚本、MSIX、版本管理，具备公司主要软件 Microsoft Store（微软商店）/ Steam 上架流程经验；熟悉 Python、Tkinter、openpyxl、pywin32、PyInstaller、Windows 任务计划和批处理脚本。
 - 部署与排障：熟悉 Cloudflare Pages / Workers / R2、CDN 缓存、Linux systemd、Nginx、宝塔面板、证书续签、服务监控、日志排查和发布前检查流程。
 
 ## 工作经历
@@ -31,7 +31,8 @@ GitHub：https://github.com/zhouzhiouhub
 
 2024.06 - 2026.07
 
-- 负责多款客户端/桌面端软件的打包、发布、检测、分发与下载链路维护，覆盖官网、CDN、对象存储、应用商店等多个发布渠道。
+- 负责多款客户端/桌面端软件的打包、发布、检测、分发与下载链路维护，覆盖官网、CDN、对象存储等发布渠道。
+- 参与公司主要桌面端软件在 Microsoft Store（微软商店）和 Steam 的上架发布流程，配合完成包体准备、商店预检、上传、版本递增、发布说明配置和状态跟进。
 - 维护桌面端构建流程，包括 Rust 内核编译、Tauri 前端构建、插件目录清理、安装包生成、版本号管理和会员授权配置，配合完成日常发版。
 - 维护官网、下载页、更新日志、博客、多语言页面和静态资源发布流程，支持下载入口校验、内容核对、缓存刷新和发布回归。
 - 参与用户管理、会员订阅和支付相关系统维护，配合完成 Staging 验证、生产部署、订单识别、权益同步和 Webhook 链路检查。
@@ -43,12 +44,12 @@ GitHub：https://github.com/zhouzhiouhub
 
 ### 客户端软件构建与发布链路
 
-技术栈：Rust / Tauri / npm scripts / Python / MSIX / Cloudflare / 应用商店发布  
+技术栈：Rust / Tauri / npm scripts / Python / MSIX / Cloudflare  
 项目类型：工作项目
 
 - 梳理并维护桌面端软件从内核编译、前端构建、插件处理到安装包生成的发布流程，支持多款产品持续迭代。
 - 使用 npm 脚本和 Python 工具辅助完成多版本构建、插件处理、包体检查、版本号同步和发布记录整理。
-- 参与应用商店和游戏平台发布流程，包括包体转换、上传、状态查询、版本递增、发布说明配置和上线前检查。
+- 配合完成发布前包体检查、版本记录同步、下载链路校验和上线前检查，提升发布流程规范性。
 - 配合处理下载入口、安装包、缓存刷新和用户反馈问题，减少发布后定位成本。
 
 ### 官网、后台与订阅支付系统维护
